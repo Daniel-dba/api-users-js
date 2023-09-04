@@ -1,0 +1,23 @@
+----DB usuarios---
+CREATE TABLE usuarios (
+    id SERIAL PRIMARY KEY,
+    ci INTEGER NOT NULL,
+    nombre VARCHAR(50) NOT NULL,
+    primer_apellido VARCHAR(50) NOT NULL,
+    segundo_apellido VARCHAR(50) NOT NULL,
+    fecha_nacimiento DATE NOT NULL
+);
+
+-- Insertar datos en la tabla de usuarios--
+INSERT INTO usuarios (ci,nombre, primer_apellido , segundo_apellido , fecha_nacimiento)
+VALUES 
+ (8002762, 'Daniel', 'Butron', 'Alvarez', '1990-12-28'),
+ (8002763, 'Emma', 'Ruiz', 'Cardona', '1994-03-12'),
+ (8002764, 'Zacarias', 'Flores', 'De La Fuente', '2000-10-10'),
+ (8002765, 'Armando', 'Paredes', 'Rojas', '1992-11-11'),
+ (8002766, 'Humberto', 'Butron', 'Gandarillas', '1959-09-23');
+
+
+--promedio--
+SELECT AVG(EXTRACT(YEAR FROM AGE(NOW(), 
+fecha_nacimiento))) AS promedio_edades FROM usuarios
