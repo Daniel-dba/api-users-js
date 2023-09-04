@@ -202,7 +202,7 @@ En el browser se verifica la conexión a la base de datos
 
 Mediante postman, se verifica el funcionamiento del crood 
 
- Nota: El Informe final con capturas de pantalla fue enviado al correo: juanc.con@gmail.com y al google classroom
+ Nota: El Informe final con capturas de pantalla fue enviado al correo: juanc.com@gmail.com y al google classroom
  
  
  
