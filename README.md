@@ -1,6 +1,6 @@
 TRABAJO FINAL MODULO 3 NOCIONES DE PROGRAMACION DIPLOMADO FULL STACK USIP
 	API-REST  TRABAJO FINAL PARA ADMINISTRAR USUARIOS
-Se ejecuta el siguiente comando en la terminal para levantar docker
+Se ejecuta el siguiente comando en la terminal para levantar una base de datos en postgres con docker
 _ docker run –dip-pg -e POSTGRES_PASSWORD=postgres -p 54322:5432 postgres:12
 
 Se ejecutan los siguientes comandos 
